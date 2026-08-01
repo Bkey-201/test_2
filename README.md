@@ -1,4 +1,4 @@
-task1/
+task1/                    
 ├── stats_total.py          # Общая статистика              
 ├── stats_classes.py        # Статистика по классам                   
 ├── stats_types.py          # Статистика по типам фигур (опционально)                
@@ -7,7 +7,7 @@ task1/
 
 
 
-task2/
+task2/                  
 ├── restructure_coco.py      # реструктуризация                     
 ├── validate_coco.py         # валидация (по умолчанию updated_annotations.json)               
 ├── convert_to_yolo.py       # преобразование в YOLO (по умолчанию updated_annotations.json)                 
