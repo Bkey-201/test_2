@@ -8,9 +8,9 @@
 - `validate_coco.py` – валидация обновлённого датасета: проверяет существование файлов, целостность ссылок (`image_id`, `category_id`), формирует отчёт в JSON.
 - `convert_to_yolo.py`  – преобразование аннотаций в формат YOLO: создаёт `.txt` файлы с нормализованными координатами для каждого изображения.
 
-### Структура папки
-task2/
-├── restructure_coco.py # Реструктуризация 
-├── validate_coco.py # Валидация (по умолчанию updated_annotations.json)
-├── convert_to_yolo.py # Преобразование в YOLO (по умолчанию updated_annotations.json)
-└── README.md # Инструкция (данный файл)
+### Структура папки                              
+task2/                              
+├── restructure_coco.py # Реструктуризация                       
+├── validate_coco.py # Валидация (по умолчанию updated_annotations.json)                   
+├── convert_to_yolo.py # Преобразование в YOLO (по умолчанию updated_annotations.json)                         
+└── README.md # Инструкция (данный файл)                          
